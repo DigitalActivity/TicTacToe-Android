@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="tictactoe.tictactoe.MainActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="tictactoe.tictactoe.ScoreFragment"
+            android:id="@+id/fragment"
+            tools:layout="@layout/score_fragment"
+            android:layout_gravity="center_horizontal"
+            tools:layout_height="wrap_content" />
+
+        <Button
+        android:text="@string/string_reinitialiser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_reinitialiser" />
+    </LinearLayout>
+
+
+
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="tictactoe.tictactoe.TableJeuFragment"
+        android:id="@+id/table_jeu_fragment"
+        tools:layout="@layout/table_jeu_fragment"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

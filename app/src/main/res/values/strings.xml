@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="score_joueur1">0</string>
+    <string name="score_joueur2">0</string>
+    <string name="string_message_gagnant">a gagné cette manche</string>
+    <string name="string_reinitialiser">Reinitialiser</string>
+    <string name="logo_joueur_1">logo Joueur 1</string>
+    <string name="logo_joueur_2">logo Joueur 2</string>
+</resources>

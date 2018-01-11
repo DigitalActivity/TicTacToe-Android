@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+    tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/imageViewJoueur1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/x"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView_scorejoueur1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/score_joueur1"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewProchain"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:tint="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView_scorejoueur2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/score_joueur2"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewJoueur2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o"
+            tools:ignore="ContentDescription" />
+</LinearLayout>
